@@ -1,4 +1,6 @@
 function data_gui
+
+%%%THIS IS OLD FRANKENCODE, ONLY USE AS REFERENCE FOR GUI%%%
 % data_gui Select a data set from the pop-up menu, then
 % click plot pushbutton. Clicking the button
 % plots the selected data in the axes.
