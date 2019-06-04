@@ -1,6 +1,6 @@
 # Data processing code masters
 
-This repository is to back up all my matlab code, for my master's thesis analysis pipeline. 
+This repository is to back up a subset of my matlab code, for my master's thesis analysis pipeline. 
 The <b>standard_analysis</b> script calls several other scripts to process and eventually save the data to a workspace:
 
 ## data_read
