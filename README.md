@@ -31,6 +31,11 @@ The <b>standard_analysis</b> script calls several other scripts to process and e
   
   *outputs array of root mean square of average-subtracted input data
   
+## hiprint
+ *inputs = (file path, file name, DPI for output image)
+ 
+ *outputs image of stated DPI
+ 
 
   
   
