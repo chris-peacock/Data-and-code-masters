@@ -17,7 +17,7 @@ The <b>standard_analysis</b> script calls several other scripts to process and e
 ## data_read_general
   *inputs = (directory path, lines to skip in file read)
   
-  *outputs a 5-D data array, 
+  *outputs a 3-D data array, 
   size = (#of files ,2 (for x,y axes),#of datapoints (must be > than the max # of datapoints, fill rest with NaNs))
           
   *outputs a list of files from which the data was read, for keeping track of files missing/potential typos in filenames
