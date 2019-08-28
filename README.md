@@ -57,7 +57,11 @@ The <b>standard_analysis</b> script calls several other scripts to process and e
  *inputs = (file path, file name, DPI for output image)
  
  *outputs image of stated DPI
- 
 
+## standard_analysis
+  *quick script to demonstrate the output from above functions, for an example file system.  This script is written specifically for the file system I used during my master's program
+ 
+## standard_analysis
+  *quick script to demonstrate the output from above general functions, for any input directory path.  The script will output the data extracted for all files in the input directory, along with a list of filenames for files found in the directory 
   
   
