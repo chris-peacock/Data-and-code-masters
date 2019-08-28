@@ -35,7 +35,7 @@ The <b>standard_analysis</b> script calls several other scripts to process and e
 ## fourier_profile
   *inputs = (data,# of points in linear interpolation, size of local average,low freq cutoff,high freq cutoff,plot? (boolean 1 = yes, 0 = no),checkfourier     (boolean))
   
-  *dpeak: outputs real-space period corresponding to the peak in the fourier transform in the frequency region between low and high freq cutoff,
+  *dpeak: outputs array of real-space period corresponding to the peak in the fourier transform in the frequency region between low and high freq cutoff,
   size = (#of samples,
           #of strain increments,
           #of ROI)
@@ -47,11 +47,11 @@ The <b>standard_analysis</b> script calls several other scripts to process and e
 ## fourier_profile_general
   *inputs = (data,# of points in linear interpolation, size of local average,low freq cutoff,high freq cutoff,plot? (boolean 1 = yes, 0 = no),checkfourier     (boolean))
   
-  *dpeak: outputs real-space periodicity corresponding to the peak in the fourier transform in the frequency region between low and high freq cutoff,
+  *dpeak: outputs list of real-space periodicity corresponding to the peak in the fourier transform in the frequency region between low and high freq cutoff,
   
   *dpeak_check: outputs mask for frequency peak array, each entry is 0 or 1 depending on user input (check to see whether peak of profile was found        correctly)
   
-  *RMS: outputs array of root mean square of average-subtracted input data
+  *RMS: outputs list of root mean square of average-subtracted input data
   
 ## hiprint
  *inputs = (file path, file name, DPI for output image)
