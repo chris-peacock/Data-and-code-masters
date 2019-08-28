@@ -33,7 +33,7 @@ The <b>standard_analysis</b> script calls several other scripts to process and e
   *outputs mean and standard deviation along the datapoint (3rd) axis of 'data_read' output
   
 ## fourier_profile
-  *inputs = (data,# of points in linear interpolation, size of local average,low freq cutoff,high freq cutoff,plot? (bool),checkfourier     (boolean))
+  *inputs = (data,# of points in linear interpolation, size of local average,low freq cutoff,high freq cutoff,plot? (boolean 1 = yes, 0 = no),checkfourier     (boolean))
   
   *dpeak: outputs real-space period corresponding to the peak in the fourier transform in the frequency region between low and high freq cutoff,
   size = (#of samples,
@@ -45,7 +45,7 @@ The <b>standard_analysis</b> script calls several other scripts to process and e
   *RMS: outputs array of root mean square of average-subtracted input data
   
 ## fourier_profile_general
-  *inputs = (data,# of points in linear interpolation, size of local average,low freq cutoff,high freq cutoff,plot? (bool),checkfourier     (boolean))
+  *inputs = (data,# of points in linear interpolation, size of local average,low freq cutoff,high freq cutoff,plot? (boolean 1 = yes, 0 = no),checkfourier     (boolean))
   
   *dpeak: outputs real-space periodicity corresponding to the peak in the fourier transform in the frequency region between low and high freq cutoff,
   
